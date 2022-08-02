@@ -381,12 +381,12 @@ section{
     .row{
         display: flex;
         align-items: center;
-        flex-wrap:wrap;
+        flex-wrap: wrap;
         gap: 2;
 
 
     .info-container{
-        width: 80rem;
+        width: 60%;
 
     h1{
         font-size: 3rem;
@@ -428,7 +428,7 @@ section{
     }
 } 
     .share{
-        width: 40rem;
+        width: 40%;
         text-align: center;
 
         a{
@@ -526,7 +526,7 @@ section{
 }
 }
 
-@media  (max-width:450px){
+@media  (max-width:550px){
 
      .heading{   
         font-size: 6vw;
@@ -559,5 +559,14 @@ section{
             }
         }
     }
+
+    .contact{
+
+        .row{
+            flex-direction: column;
+            flex-wrap:wrap;}
+        }
+          
+    
 
 }
