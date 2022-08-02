@@ -386,7 +386,7 @@ section{
 
 
     .info-container{
-        width: 40rem;
+        width: 80rem;
 
     h1{
         font-size: 3rem;
@@ -428,6 +428,8 @@ section{
     }
 } 
     .share{
+        width: 40rem;
+        text-align: center;
 
         a{
         font-size: 3rem;
@@ -449,6 +451,17 @@ section{
 }
 }
 
+.dev{
+
+    h5{
+        text-align: center;
+        color: #aaa;
+        font-size: 1.4rem;
+        font-weight: 300;
+        text-transform: none;
+        padding-top: 7rem;
+}
+}
 
 /*media query*/
 
