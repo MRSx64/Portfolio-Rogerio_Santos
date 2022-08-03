@@ -439,13 +439,14 @@ section{
         width: 5.5rem;
         line-height: 5.5rem;
         border-radius: 50%;
-        background: #1a1a1a;
+        background: $crimson;
         text-align: center;
-        color: #fff;
+        color: $white;
         margin-right: 1.3rem;
 
             &:hover{
-                background: $crimson;
+                color: $crimson;
+                background: $white;
             }
         }
     } 
