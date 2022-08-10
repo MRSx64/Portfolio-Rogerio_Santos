@@ -157,6 +157,7 @@ section {
   color: #fff;
   font-size: 5rem;
   padding-bottom: .5rem;
+  text-shadow: 3px 4px 2px crimson;
 }
 
 .content span {
