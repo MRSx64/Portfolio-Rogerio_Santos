@@ -47,8 +47,6 @@ body{
 }
 
 section{
-    width: 100vw;
-    height: 90vh;
     padding: 2rem 9%;
 }
 
@@ -481,7 +479,7 @@ section{
         font-size: 55%;
     }
     section{
-        padding: 3rem 2rem;
+        padding: 3rem 5rem;
     }
     
 }
@@ -574,6 +572,9 @@ section{
         .row{
             flex-direction: column;
             flex-wrap:wrap;}
+        }
+        .contact .row .info-container {
+            width: 126%;
         }
           
     
