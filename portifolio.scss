@@ -47,7 +47,7 @@ body{
 }
 
 section{
-    padding: 5rem 9%;
+    padding: 8rem 9%;
 }
 
 .heading{
@@ -144,11 +144,11 @@ section{
 }
 
  .content{
-    flex: 1 1 42rem;
+    flex: 1 1 76rem;
 
     h3 {
         color: $white;
-        font-size: 4rem;
+        font-size: 5rem;
         padding-bottom: .5rem;
     }
     span{
@@ -229,6 +229,9 @@ section{
     }
 }
 .skills{
+    .section{
+            padding: 8rem 9%;
+    }
 
     .box-container{
         @include grid(16rem);
@@ -463,7 +466,7 @@ section{
         font-size: 1.4rem;
         font-weight: 300;
         text-transform: none;
-        padding-top: 7rem;
+        padding-top: 4rem;
 }
 }
 
