@@ -137,9 +137,9 @@ section{
     text-align: center;
 
 
-    img{height: 48rem;
-        width: 40rem;
-        border-radius: 52% 58% 54% 66% / 28% 33% 89% 80%;
+    img{height: 38rem;
+        width: 33rem;
+        border-radius: 168px / 15% 15% 66% 66%;
     }
 }
 
@@ -317,10 +317,11 @@ section{
     .container{
         @include grid(30rem);
         margin-bottom: 2rem;
-        gap: 2rem 2rem;
+        gap: 4rem 2rem;
 
         .box{
-            height: 28rem;
+            width: 30rem;
+            height: 22rem;
             overflow: hidden;
             position: relative;
 

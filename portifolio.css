@@ -142,9 +142,9 @@ section {
 }
 
 .imagem img {
-  height: 48rem;
-  width: 40rem;
-  border-radius: 52% 58% 54% 66% / 28% 33% 89% 80%;
+  height: 38rem;
+  width: 33rem;
+  border-radius: 168px / 15% 15% 66% 66%;
 }
 
 .content {
@@ -354,11 +354,12 @@ section {
       grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 1.5rem;
   margin-bottom: 2rem;
-  gap: 2rem 2rem;
+  gap: 4rem 2rem;
 }
 
 .portfolio .container .box {
-  height: 28rem;
+  width: 30rem;
+  height: 22rem;
   overflow: hidden;
   position: relative;
 }
