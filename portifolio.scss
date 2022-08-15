@@ -137,8 +137,9 @@ section{
     text-align: center;
 
 
-    img{height: 38rem;
-        width: 33rem;
+    img{
+        height: 30rem;
+        width: 26rem;
         border-radius: 168px / 15% 15% 66% 66%;
     }
 }
@@ -147,11 +148,38 @@ section{
     flex: 1 1 66rem;
 
     h3 {
+        position: relative;
         color: $white;
         font-size: 5rem;
         padding-bottom: .5rem;
-        text-shadow: 3px 4px 2px $crimson;
-    }
+        overflow: hidden;}
+        
+        h3:before{
+            content: '';
+            position: absolute;
+            left: 120%;
+            width: 120%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent 0%, #000 5%, #000 100%);
+            animation: animate 8s linear forwards;}
+            
+            
+            @keyframes animate{
+
+                0%{
+                    left: -20%;
+                }
+                50% {
+                    left: 60%;
+                }
+                100% {
+                    left: 120%;
+                }
+            
+        }
+
+      
+
     span{
         font-size: 2.5rem;
         color: $crimson;
@@ -315,6 +343,24 @@ section{
             }
         }
     }
+    h2{
+        font-size: 4rem;
+        color: #fff;
+        text-transform: uppercase;
+        padding: 4rem 0;
+    }
+
+    .box-studing{
+        display: flex;
+        padding: 2rem 0;
+
+        .box{width: 12rem;
+            height: 16rem;
+            overflow: hidden;
+            position: relative;
+        }
+    }
+    
 }
 .portfolio{
 
@@ -383,6 +429,7 @@ section{
             }
         }
     }
+    
 }
 .contact{
 
@@ -566,6 +613,11 @@ section{
                 font-size: 1.5rem;
             }
         }
+    }
+
+    .education h2{
+        font-size: 2rem;
+        text-align: center;
     }
 
     .contact{
