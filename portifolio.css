@@ -169,8 +169,8 @@ section {
   height: 100%;
   background: -webkit-gradient(linear, left top, right top, from(transparent), color-stop(5%, #000), to(#000));
   background: linear-gradient(90deg, transparent 0%, #000 5%, #000 100%);
-  -webkit-animation: animate 4s linear forwards;
-          animation: animate 4s linear forwards;
+  -webkit-animation: animate 8s linear forwards;
+          animation: animate 8s linear forwards;
 }
 
 @-webkit-keyframes animate {
@@ -408,6 +408,12 @@ section {
   height: 16rem;
   overflow: hidden;
   position: relative;
+}
+
+.education .box-studing .box h3 {
+  color: white;
+  font-size: 18px;
+  text-align: center;
 }
 
 .portfolio .container {
