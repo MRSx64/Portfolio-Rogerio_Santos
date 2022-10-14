@@ -73,6 +73,61 @@ section {
   margin-left: 2rem;
 }
 
+dialog::-webkit-backdrop {
+  background-color: rgba(241, 184, 184, 0.877);
+}
+
+dialog::backdrop {
+  background-color: rgba(241, 184, 184, 0.877);
+}
+
+dialog {
+  background-color: #16082a;
+  width: 40vw;
+  height: 40vh;
+  margin: auto;
+}
+dialog h2 {
+  padding: 2em;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+dialog p {
+  margin: 1em;
+  color: #fff;
+  font-size: 1.6em;
+}
+dialog p a {
+  color: #31d331;
+}
+dialog p:hover a {
+  color: crimson;
+  font-size: 28px;
+  font-weight: bold;
+}
+dialog p img {
+  width: 30px;
+  height: 30px;
+}
+
+button {
+  display: inline;
+  margin-top: 3rem;
+  border-radius: 5rem;
+  background: crimson;
+  font-size: 1.6rem;
+  color: #fff;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+}
+button:hover {
+  color: crimson;
+  background: #fff;
+}
+
 .navbar {
   position: fixed;
   bottom: 0;
@@ -466,8 +521,30 @@ section {
   section {
     padding: 3rem 5rem;
   }
+  dialog {
+    width: 50vw;
+    height: 40vh;
+  }
 }
 @media (max-width: 820px) {
+  dialog {
+    width: 50vw;
+    height: 32vh;
+  }
+  dialog p {
+    font-size: 1.4em;
+    margin: 0.5em;
+  }
+  dialog p:hover a {
+    font-size: 18px;
+  }
+  dialog p img {
+    width: 24px;
+    height: 24px;
+  }
+  button {
+    font-size: 1.2rem;
+  }
   .contact .row .info-container h1 {
     font-size: 2rem;
     text-align: center;
@@ -504,6 +581,13 @@ section {
   }
 }
 @media (max-width: 550px) {
+  dialog {
+    width: 50vw;
+    height: 40vh;
+  }
+  dialog h2 {
+    padding: 0.7em;
+  }
   .heading {
     font-size: 6vw;
   }
