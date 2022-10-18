@@ -47,7 +47,7 @@ body{
 }
 
 section{
-    padding: 2rem 9%;
+    padding: 4rem 9%;
 }
 
 .heading{
@@ -130,12 +130,13 @@ dialog{
 }
 button{
     display: inline;
-    margin-top: 3rem;
+    margin-top: 1rem;
     border-radius: 5rem;
-    background: crimson;
-    font-size: 1.6rem;
-    color: #fff;
-    padding: 0.5rem 2rem 0.5rem 2rem;
+    background: $crimson;
+    padding: .7rem;
+    font-size: 1.7rem;
+    color: $white;
+    padding: 1rem;
 
     &:hover{
         color: $crimson;
@@ -312,9 +313,7 @@ button{
     }
 }
 .skills{
-    .section{
-            padding: 8rem 9%;
-    }
+    
 
     .box-container{
         @include grid(16rem);
@@ -435,13 +434,12 @@ button{
 .portfolio{
 
     .container{
-        @include grid(30rem);
-        margin-bottom: 2rem;
-        gap: 4rem 2rem;
+        @include grid(16rem);}
 
         .box{
-            width: 28rem;
-            height: 20rem;
+            width: 22rem;
+            height: 16rem;
+            margin: auto;
             overflow: hidden;
             position: relative;
             border-radius: 10px;
@@ -500,7 +498,6 @@ button{
         }
     }
     
-}
 .contact{
 
     .row{
@@ -616,7 +613,7 @@ button{
         
         p{
             font-size: 1.4em;
-            margin: .5em;
+            margin: 10px;
           
             &:hover a{
                 font-size: 18px;
@@ -628,7 +625,7 @@ button{
         }
     }
     button{     
-        font-size: 1.2rem;
+        font-size: 1.6rem;
     }
 
 
