@@ -361,28 +361,33 @@ button:hover {
   color: #aaa;
   line-height: 2;
 }
-.education h2 {
-  font-size: 4rem;
-  color: #fff;
-  text-transform: uppercase;
-  padding: 4rem 0;
+
+.studing .box-studing {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: 1.5rem;
 }
-.education .box-studing {
-  display: flex;
-  padding: 2rem 0;
-}
-.education .box-studing .box {
-  width: 12rem;
-  height: 16rem;
-  overflow: hidden;
-  position: relative;
-  margin: 0 10px;
-}
-.education .box-studing .box h3 {
-  color: white;
-  font-size: 18px;
+.studing .box {
+  padding: 2rem;
   text-align: center;
-  margin: 0 10px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
+  border-radius: 0.5rem;
+  background: #1a1a1a;
+}
+.studing .box:hover {
+  background: #fff;
+}
+.studing .box:hover h3 {
+  color: #040404;
+}
+.studing .box img {
+  height: 7rem;
+  margin-bottom: 1rem;
+}
+.studing .box h3 {
+  color: #fff;
+  font-size: 1.7rem;
+  font-weight: normal;
 }
 
 .portfolio .container {
