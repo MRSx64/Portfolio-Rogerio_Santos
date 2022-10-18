@@ -109,7 +109,7 @@ dialog p:hover a {
   font-size: 28px;
   font-weight: bold;
 }
-dialog p img {
+dialog p svg {
   width: 30px;
   height: 30px;
 }
