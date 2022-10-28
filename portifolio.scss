@@ -738,7 +738,8 @@ button{
 
         .navbar a {
             flex: 0.5;
-            padding: 2rem 1rem;
+            flex-direction: row;
+            padding: 1rem 1rem;
             font-size: 2rem;}
 
 }
