@@ -393,8 +393,8 @@ button:hover {
   gap: 1.5rem;
 }
 .portfolio .box {
-  width: 22rem;
-  height: 16rem;
+  width: 20rem;
+  height: 14rem;
   margin: auto;
   overflow: hidden;
   position: relative;
