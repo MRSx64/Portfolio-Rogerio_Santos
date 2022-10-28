@@ -119,10 +119,9 @@ button {
   margin-top: 1rem;
   border-radius: 5rem;
   background: crimson;
-  padding: 0.7rem;
   font-size: 1.7rem;
   color: #fff;
-  padding: 1rem;
+  padding: 0.6rem;
 }
 button:hover {
   color: crimson;
@@ -529,6 +528,9 @@ button:hover {
   }
 }
 @media (max-width: 820px) {
+  .home {
+    min-height: calc(85vh - 6.5rem);
+  }
   dialog {
     width: 50vw;
     height: 32vh;
