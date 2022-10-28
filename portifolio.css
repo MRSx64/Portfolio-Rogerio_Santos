@@ -623,6 +623,7 @@ button:hover {
     width: 126%;
   }
   .navbar a {
+    padding: 2rem 1rem;
     font-size: 1.8rem;
   }
 }/*# sourceMappingURL=portifolio.css.map */
