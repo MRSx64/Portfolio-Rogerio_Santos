@@ -528,7 +528,7 @@ button:hover {
 }
 @media (max-width: 550px) {
   html::-webkit-scrollbar {
-    width: 1rem;
+    width: 0rem;
   }
   dialog {
     width: 50vw;
