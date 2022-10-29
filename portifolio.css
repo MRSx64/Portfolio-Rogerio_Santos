@@ -163,7 +163,7 @@ button:hover {
   align-items: center;
   flex-wrap: wrap;
   gap: 4rem;
-  min-height: calc(100vh - 6.5rem);
+  min-height: calc(100vh - 16rem);
 }
 
 .imagem {
@@ -385,64 +385,6 @@ button:hover {
   color: #fff;
   font-size: 1.7rem;
   font-weight: normal;
-}
-
-.portfolio .container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
-  gap: 1.5rem;
-}
-.portfolio .box {
-  width: 18rem;
-  height: 16rem;
-  margin: auto;
-  overflow: hidden;
-  position: relative;
-  border-radius: 10px;
-}
-.portfolio .box:hover .content {
-  transform: translateY(0);
-}
-.portfolio .box img {
-  height: 100%;
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-.portfolio .box .content {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: #1a1a1a;
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  justify-content: center;
-  padding: 2rem;
-  transform: translateY(100%);
-  transition: 0.5s linear;
-}
-.portfolio .box .content h3 {
-  font-size: 2.5rem;
-  color: #fff;
-  text-transform: uppercase;
-  font-weight: normal;
-}
-.portfolio .box .content p {
-  padding: 1rem 0;
-  font-size: 2rem;
-  line-height: 2;
-  color: #aaa;
-}
-.portfolio .box .content a {
-  font-size: 1.8rem;
-  color: crimson;
-  text-transform: none;
-}
-.portfolio .box .content a:hover {
-  color: #fff;
 }
 
 .contact .row {
