@@ -648,11 +648,18 @@ button{
     
     .navbar{
 
+        a {
+            flex: 0.5;
+            flex-direction: row;
+            padding: 0;
+            font-size: 2rem;
+        
+            i{
+                padding-right: 1rem;}
     
-        i{
-            padding-right: 1rem;}
-
+            }
         }
+
         .home{
             text-align: center;
     
@@ -686,11 +693,5 @@ button{
         .contact .row .info-container {
             width: 126%;
         }
-
-        .navbar a {
-            flex: 0.5;
-            flex-direction: row;
-            padding: 0;
-            font-size: 2rem;}
 
 }
